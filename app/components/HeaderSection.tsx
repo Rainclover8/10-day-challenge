@@ -1,10 +1,14 @@
 import React from 'react'
+import { CiCalendar } from "react-icons/ci";
 
 function HeaderSection() {
   return (
     <section className='mt-12'>
 
-      <span className='mt-12'>Takvim</span>
+      <div className="flex  items-center gap-4 text-[#436cc8] bg-gray-400 w-fit mx-auto p-1 rounded-full">
+        <span className=''><CiCalendar size={20} /></span>
+        <h6>Gün 2 / 10</h6>
+      </div>
 
       <div className="text-center mt-12">
         <h1 className=' text-7xl font-bold bg-gradient-to-r from-blue-700 to-purple-300 bg-clip-text text-transparent p-2 '>10 Günde AirPods Challenge</h1>

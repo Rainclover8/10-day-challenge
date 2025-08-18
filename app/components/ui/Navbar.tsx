@@ -40,7 +40,9 @@ function MainNavbar() {
         {/* Mobile Navigation */}
         <MobileNav>
           <MobileNavHeader>
-            <a href="/" className="z-50">Youtube</a>
+            <a href="/" className="z-50">
+            <NavbarLogo/>
+            </a>
             <MobileNavToggle
               isOpen={isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
