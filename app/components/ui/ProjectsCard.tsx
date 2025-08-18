@@ -21,9 +21,9 @@ function ProjectsCard({ projectDay, projectName, projectDetail, tags }: projectT
                 <Tags techStack={tags} />
             </div>
             <div className="flex gap-2">
-                <a href="/" className='border bg-white border-gray-600 h-fit text-black px-4 py-1 rounded-lg flex items-center gap-2 hover:bg-purple-400 duration-200'> <PiGithubLogo /></a>
-                <a href="/" className=' flex justify-center items-center bg-blue-700 text-white h-fit px-4 py-1 rounded-lg'>
-                    <RiExternalLinkFill size={12} />
+                <a href="/" className='h-fit text-black px-4 py-1 rounded-lg flex items-center gap-2 hover:bg-purple-400 duration-200'> <PiGithubLogo color='white' size={20} /></a>
+                <a href="/" className=' flex justify-center items-center text-white h-fit px-4 py-1 rounded-lg hover:bg-purple-400 duration-200'>
+                    <RiExternalLinkFill color='white' size={20} />
                 </a>
             </div>
         </div>
