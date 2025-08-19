@@ -7,7 +7,7 @@ function HeaderSection() {
 
       <div className="flex items-center gap-4 text-[#436cc8] bg-gray-400 w-fit mx-auto p-1 rounded-full">
         <span className=''><CiCalendar size={20} /></span>
-        <h6>Gün 2 / 10</h6>
+        <h6>Gün 5 / 10</h6>
       </div>
 
       <div className="text-center mt-12">
