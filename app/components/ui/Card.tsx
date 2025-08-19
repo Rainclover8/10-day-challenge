@@ -21,11 +21,13 @@ function Card() {
                 <a 
                     href="https://github.com/Rainclover8/SubCounter" 
                     className='border bg-white border-gray-600 text-black px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:bg-purple-400 hover:text-white duration-200'
+                    target='_blank'
                 > 
                     <PiGithubLogo /> Github
                 </a>
                 <a 
                     href="https://sub-counter.vercel.app/" 
+                    target='_blank'
                     className='flex justify-center items-center bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 duration-200'
                 >
                     <FaExternalLinkAlt size={12} className="mr-2" /> Demo
