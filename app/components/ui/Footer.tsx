@@ -7,7 +7,7 @@ function Footer() {
           <h1 className="text-2xl font-bold my-3" >🔗 Benimle İletişime Geç</h1>
           <div className="mb-3 flex gap-3 flex-wrap">
             <a
-              href="https://www.instagram.com/rainclover8/"
+              href="https://www.instagram.com/baranncicek19/"
               className='border bg-white border-gray-600 text-black px-4 py-2 rounded-lg flex items-center justify-center gap-2 hover:bg-purple-400 hover:text-white duration-200'
               target='_blank'
             >
