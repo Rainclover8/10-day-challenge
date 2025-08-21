@@ -29,7 +29,9 @@ function MainNavbar() {
      <Navbar>
         {/* Desktop Navigation */}
         <NavBody>
-          <a href="/" className="text-4xl font-bold z-50">Youtube</a>
+          <a href="/" className="text-4xl font-bold z-50">
+            <NavbarLogo />
+          </a>
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary">Login</NavbarButton>

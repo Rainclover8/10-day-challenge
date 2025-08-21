@@ -15,13 +15,15 @@ export default function Home() {
           <MainNavbar />
         </div>
 
-        <HeaderSection />
+        <div className="" id="header">
+          <HeaderSection />
+        </div>
 
         <div className="lg:w-1/2 px-6 mx-auto mt-24">
           <Card />
           <div className="mt-12 mb-12 w-full">
             <a
-              href="#project"
+              href="#projects"
               className="bg-blue-700 px-4 py-2 rounded-lg flex w-fit mx-auto hover:bg-blue-500 justify-center items-center gap-2"
             >
               <FaCode />
@@ -41,7 +43,7 @@ export default function Home() {
           {/* Kartlar */}
           <div
             className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 md:mt-12 w-full"
-            id="project"
+            id="projects"
           >
             <ProjectsCard
               projectDay={"Gün 3"}

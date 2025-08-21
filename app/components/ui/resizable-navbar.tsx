@@ -243,7 +243,7 @@ export const NavbarLogo = () => {
         height={30}
         className="rounded-full"
       />
-      <span className="font-medium text-black dark:text-white">10 Days Challenge</span>
+      <span className="font-bold text-black dark:text-white">10 Days Challenge</span>
     </div>
   );
 };
