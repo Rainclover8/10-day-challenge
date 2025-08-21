@@ -55,7 +55,7 @@ export default function Home() {
         </div>
 
         {/* Gelecek Projeler */}
-        <div className="mt-24 text-center">
+        <div className="mt-24 text-center" id="future-projects">
           <h1 className="text-4xl font-bold mb-4">🚀 Gelecek Projeler</h1>
           <small className="text-sm text-gray-400 ">
             Yakında gelecek heyecan verici projeler
@@ -69,7 +69,9 @@ export default function Home() {
 
         {/* About Kısmı */}
 
-        <AboutSection />
+       <div className="" id="about">
+         <AboutSection />
+       </div>
         {/* Footer */}
 
         <Footer />
