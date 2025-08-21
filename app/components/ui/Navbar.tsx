@@ -6,10 +6,6 @@ function MainNavbar() {
 
     const navItems = [
     {
-      name: "Ana Sayfa",
-      link: "#home",
-    },
-    {
       name: "Projeler",
       link: "#projects",
     },
