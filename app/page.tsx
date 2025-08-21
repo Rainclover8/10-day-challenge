@@ -8,9 +8,6 @@ import Footer from "./components/ui/Footer";
 import AboutSection from "./components/ui/AboutSection";
 
 export default function Home() {
-
-
-
   return (
     <>
       <div className="h-full">
@@ -22,12 +19,16 @@ export default function Home() {
 
         <div className="lg:w-1/2 px-6 mx-auto mt-24">
           <Card />
-          <div className="mt-12 mb-12 w-full" >
-            <a href="#project" className="bg-blue-700 px-4 py-2 rounded-lg flex w-fit mx-auto hover:bg-blue-500 justify-center items-center gap-2"> <FaCode />Projeleri Incele</a>
+          <div className="mt-12 mb-12 w-full">
+            <a
+              href="#project"
+              className="bg-blue-700 px-4 py-2 rounded-lg flex w-fit mx-auto hover:bg-blue-500 justify-center items-center gap-2"
+            >
+              <FaCode />
+              Projeleri Incele
+            </a>
           </div>
         </div>
-
-
 
         <div className="flex flex-col items-center mt-12 md:mt-36 px-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
@@ -38,7 +39,10 @@ export default function Home() {
           </small>
 
           {/* Kartlar */}
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 md:mt-12 w-full" id="project">
+          <div
+            className="flex flex-wrap justify-center gap-4 sm:gap-6 mt-8 md:mt-12 w-full"
+            id="project"
+          >
             <ProjectsCard
               projectDay={"Gün 3"}
               projectName={"YouTube Subscriber Counter"}
@@ -51,7 +55,9 @@ export default function Home() {
         {/* Gelecek Projeler */}
         <div className="mt-24 text-center">
           <h1 className="text-4xl font-bold mb-4">🚀 Gelecek Projeler</h1>
-          <small className="text-sm text-gray-400 ">Yakında gelecek heyecan verici projeler</small>
+          <small className="text-sm text-gray-400 ">
+            Yakında gelecek heyecan verici projeler
+          </small>
 
           {/* Card yapısı */}
           <div className="flex justify-center gap-2 flex-wrap mt-8 items-center">
@@ -66,7 +72,6 @@ export default function Home() {
 
         <Footer />
         {/* Hepsini ayır */}
-
       </div>
     </>
   );
