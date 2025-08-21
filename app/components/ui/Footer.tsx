@@ -20,7 +20,7 @@ function Footer() {
           <PiGithubLogo /> Github
         </a>
       </div>
-      <div className="mb-2">
+      <div className="mb-2 text-center">
         © {new Date().getFullYear()} Baran Çiçek. 10 Günde AirPods Challenge ile
         yapıldı.
       </div>
