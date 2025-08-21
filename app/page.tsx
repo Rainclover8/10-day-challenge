@@ -1,11 +1,9 @@
 import HeaderSection from "./components/HeaderSection";
-import Tags from "./components/Tags";
 import Card from "./components/ui/Card";
 import FeatureCard from "./components/ui/FeatureCard";
 import MainNavbar from "./components/ui/Navbar";
 import ProjectsCard from "./components/ui/ProjectsCard";
 import { FaCode } from "react-icons/fa6";
-
 import Footer from "./components/ui/Footer";
 import AboutSection from "./components/ui/AboutSection";
 

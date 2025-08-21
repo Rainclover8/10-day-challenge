@@ -1,4 +1,3 @@
-import React from 'react'
 import { CiCalendar } from "react-icons/ci";
 
 function HeaderSection() {

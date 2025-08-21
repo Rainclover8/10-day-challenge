@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdOutlineLightbulb } from "react-icons/md";
 
 

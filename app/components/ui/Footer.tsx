@@ -1,4 +1,3 @@
-import React from 'react'
 import { PiGithubLogo } from "react-icons/pi";
 import { FaInstagram } from "react-icons/fa";
 function Footer() {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { PiGithubLogo } from "react-icons/pi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Tags from '../Tags';
