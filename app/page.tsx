@@ -10,8 +10,8 @@ import AboutSection from "./components/ui/AboutSection";
 export default function Home() {
   return (
     <>
-      <div className="h-full ">
-        <div className="sticky top-2">
+      <div className="h-full bg-black text-white ">
+        <div className="sticky top-2 z-[99]">
           <MainNavbar />
         </div>
 
