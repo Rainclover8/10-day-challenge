@@ -63,7 +63,7 @@ export default function Home() {
 
           {/* Card yapısı */}
           <div className="flex justify-center gap-2 flex-wrap mt-8 items-center">
-            <FeatureCard Text="Todo List Uygulaması" />
+            <FeatureCard Text="Mobil Uygulama" />
           </div>
         </div>
 
