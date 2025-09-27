@@ -3,11 +3,12 @@ import { CiCalendar } from "react-icons/ci";
 function HeaderSection() {
   return (
     <section className="mt-12">
-      <div className="flex items-center justify-evenly gap-x-2 text-[#436cc8] bg-gray-400 w-fit mx-auto px-3 py-2 rounded-full">
+      <div className="flex items-center justify-evenly gap-x-2 text-[#436cc8] bg-gray-400 w-fit mx-auto px-3 py-2 rounded-full relative">
         <span className="">
           <CiCalendar size={20} />
         </span>
-        <h6>Gün 5 / 10</h6>
+        <h6 className="line-through">Gün 10 / 10</h6>
+        <small className="absolute bottom-0 font-bold text-green-300">Tamamlandı</small>
       </div>
 
       <div className="text-center mt-12">
